@@ -214,12 +214,10 @@ function PiMultiplier(number) {
   };
 }
 
-// Create three functions
 const multiplyByTwoPi = PiMultiplier(2);
 const multiplyByThreeHalfPi = PiMultiplier(2/3);
 const divideByTwoPi = PiMultiplier(0.5);
 
-// Log the results of the created functions
 console.log("π множиться на 2:", multiplyByTwoPi());
 console.log("π множиться на 2/3:", multiplyByThreeHalfPi());
 console.log("π ділиться на 2:", divideByTwoPi());
