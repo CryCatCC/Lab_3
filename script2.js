@@ -7,17 +7,15 @@ function Painter(color) {
   };
 }
 
-// PaintBlue, PaintRed, and PaintYellow functions
+// PaintBlue, PaintRed, і PaintYellow фунції
 const PaintBlue = Painter('Blue');
 const PaintRed = Painter('Red');
 const PaintYellow = Painter('Yellow');
 
-// Test objects
 const object1 = { maxSpeed: 280, type: 'Sportcar', color: 'magenta'};
 const object2 = { type: 'Truck', avgSpeed: 90, loadCapacity: 2400 };
 const object3 = { maxSpeed: 180, color: 'purple', isCar: true};
 
-// Demonstration
 console.log("Object 1:");
 PaintBlue(object1);
 console.log("Object 2:");
